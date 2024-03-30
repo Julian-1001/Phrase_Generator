@@ -1,5 +1,6 @@
 Phrase Generator
 
+![Phrase_Generator_SS](https://github.com/Julian-1001/Phrase_Generator/assets/162458677/caf10986-0486-4d9b-a53e-95ef0564277d)
 
 Overview
 
