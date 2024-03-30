@@ -7,7 +7,7 @@ The Phrase Generator is an open-source command-line tool that generates mnemonic
 
 Prerequisites
 
-    Go (Golang) installed on your machine. You can download and install Go from the official Go website: https://go.dev/dl/
+Go (Golang) installed on your machine. You can download and install Go from the official Go website: https://go.dev/dl/
 
 Before running the Phrase Generator, ensure that all external dependencies are properly installed. The program relies on the github.com/tyler-smith/go-bip39 package, which must be explicitly listed in your project's go.mod file. If you encounter an error regarding missing packages, you will need to add this package to your project's dependencies.
 Adding Missing Dependencies
@@ -24,32 +24,31 @@ Installation
 
 To set up the Phrase Generator on your local machine, follow these steps:
 
-    Clone the repository or download the source code to your local machine.
-    Navigate to the project directory where the Phrase_Generator.go file is located.
-    Build the program by running the following command in your terminal:
+Clone the repository or download the source code to your local machine.
+Navigate to the project directory where the Phrase_Generator.go file is located.
+Build the program by running the following command in your terminal:
 
-    go
-
+    
     go build Phrase_Generator.go
 
-    This command creates an executable named Phrase_Generator (or Phrase_Generator.exe on Windows).
+This command creates an executable named Phrase_Generator (or Phrase_Generator.exe on Windows).
 
 Usage
 
 To generate mnemonic seed phrases, follow these steps:
 
-    Open a terminal or command prompt.
-    Navigate to the directory containing the Phrase Generator executable.
-    Run the program:
-        On Linux/macOS:
+Open a terminal or command prompt.
+Navigate to the directory containing the Phrase Generator executable.
+Run the program:
+    On Linux/macOS:
 
-./Phrase_Generator
+    ./Phrase_Generator
 
 On Windows:
 
-        .\Phrase_Generator.exe
+    .\Phrase_Generator.exe
 
-    Follow the on-screen instructions. You can generate a 12-word or 24-word seed phrase by entering make 12 or make 24, respectively. To exit the program, type exit.
+Follow the on-screen instructions. You can generate a 12-word or 24-word seed phrase by entering make 12 or make 24, respectively. To exit the program, type exit.
 
 Contributing
 
