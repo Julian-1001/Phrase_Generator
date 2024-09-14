@@ -4,7 +4,7 @@ Phrase Generator
 
 Overview
 
-The Phrase Generator is an open-source command-line tool that generates mnemonic seed phrases based on the BIP39 standard. It supports creating both 12-word and 24-word seed phrases. This tool is designed to be freely downloadable, modifiable, and usable by anyone interested in generating cryptographic seed phrases for cryptocurrency wallets or other cryptographic applications while offline.
+The Phrase Generator is an open-source command-line tool that generates mnemonic seed phrases based on the BIP39 standard. It supports creating both 12-word and 24-word seed phrases. This tool is designed to be freely downloadable, modifiable, and usable by anyone interested in generating cryptographic seed phrases for cryptocurrency wallets or other cryptographic applications while offline. ChatGPT was used in the creation of this program.
 
 Prerequisites
 
