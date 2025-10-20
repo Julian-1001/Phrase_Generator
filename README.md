@@ -18,7 +18,7 @@ If you receive an error indicating that the github.com/tyler-smith/go-bip39 pack
 Navigate to Your Project's Root Directory: Ensure you are in the directory where the go.mod file is located. This is typically the root directory of your project.
 Add the Dependency: Run the following command in PowerShell (or your terminal of choice) to add the github.com/tyler-smith/go-bip39 package to your project's dependencies:
 
-    go get github.com/tyler-smith/go-bip39
+    go install github.com/tyler-smith/go-bip39@latest
 
 This command fetches the go-bip39 package and adds it to your go.mod file, while also updating the go.sum file which tracks the checksums of your dependencies for integrity verification.
 After completing these steps, your project should have all the necessary dependencies installed, and you can proceed with building and running the Phrase Generator.
